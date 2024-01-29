@@ -1,0 +1,19 @@
+name: Tests CI
+
+on: push
+
+permissions: write-all
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test using Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - uses: education/autograding@v1

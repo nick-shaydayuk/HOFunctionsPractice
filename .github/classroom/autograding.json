@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "task1",
+      "setup": "npm ci",
+      "run": "npm test --testNamePattern='task1' ",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "task2",
+      "setup": "npm ci",
+      "run": "npm test --testNamePattern='task2'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "task3",
+      "setup": "npm ci",
+      "run": "npm test --testNamePattern='task3'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "task4",
+      "setup": "npm ci",
+      "run": "npm test --testNamePattern='task4'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "task5",
+      "setup": "npm ci",
+      "run": "npm test --testNamePattern='task5'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
